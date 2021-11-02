@@ -1,7 +1,6 @@
 package com.example.Picnic.resource;
 
 import com.example.Picnic.model.entities.PicnicUser;
-import com.example.Picnic.model.rest.external.UserDetails;
 import com.example.Picnic.model.rest.post.LoginPost;
 import com.example.Picnic.service.UserService;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -9,7 +8,6 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import java.security.NoSuchAlgorithmException;
 
 
 @RestController
